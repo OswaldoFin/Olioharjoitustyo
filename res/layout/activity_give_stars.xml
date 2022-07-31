@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".GiveStarsActivity">
+
+    <RatingBar
+        android:id="@+id/stars_bar"
+        android:layout_width="238dp"
+        android:layout_height="59dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="87dp"
+        app:layout_constraintBottom_toTopOf="@id/rating_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck"/>
+
+    <EditText
+        android:id="@+id/rating_text"
+        android:layout_width="292dp"
+        android:layout_height="180dp"
+        android:layout_below="@id/stars_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/stars_text"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@id/send_rating"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/stars_bar" />
+
+    <Button
+        android:id="@+id/send_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating_text"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:onClick="sendRating"
+        android:text="@string/give_stars"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rating_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

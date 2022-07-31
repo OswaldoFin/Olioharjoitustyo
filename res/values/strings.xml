@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Movie App</string>
+    <string name="finnkino_text">VALITSE FINNKINO-TEATTERI:</string>
+    <string name="imdb_button_text">IMDB-ELOKUVATIETOKANTA</string>
+    <string name="stars_text">Arvostele elokuva</string>
+    <string name="give_stars">TALLENNA ARVOSTELU</string>
+    <string name="search_button">Etsi Finnkinosta</string>
+    <string name="rating_button">AIEMMAT ARVOSTELUSI</string>
+    <string name="search">VALITSE</string>
+    <string name="imdb_title_text">Etsi elokuvan nimellä</string>
+    <string name="imdb_button">Etsi</string>
+
+    <string name="theater_spinner">Valitse teatteri</string>
+    <string name="event_spinner">Valitse elokuva</string>
+    <string name="theatre_button_text">Vahvista valinta</string>
+    <string name="your_ratings">SINUN ARVOSTELUSI</string>
+    <string name="next_day_text">Seuraava päivä</string>
+    <string name="previous_day_text">Edellinen päivä</string>
+    <string name="start_time_text">Alkamisaika</string>
+    <string name="event_text">Esitystiedot</string>
+    <string name="genres_text">Lajityyppi</string>
+    <string name="movie_title_text">Elokuvan nimi</string>
+    <string name="original_title_text">Alkuperäinen nimi</string>
+    <string name="length">Kesto</string>
+    <string name="theatres_text">Teatteri</string>
+    <string name="add_rating_text">Arvostele</string>
+    <string name="language_text">Kieli</string>
+    <string name="presentation_method_text">Esitystapa</string>
+    <string name="age_rating_text">Ikäraja</string>
+
+</resources>
